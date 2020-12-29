@@ -24,10 +24,12 @@ body{
    
 }
 .bg-light{
+    
     background-color: rgba(0, 0, 0, 0.22) !important;
-    height: 70px;
     position: fixed;
     width: 100%;
+    margin-top: 0;
+    height: 50px;
 
 }
 .contenedorNavegador__titulo a{
@@ -66,13 +68,14 @@ body{
 
  .titulo__index{
     margin-top: 100px;
-    background-color: blue;
+    background: linear-gradient(100.37deg, #610098 38.77%, #440098 82.37%);
 }
 
 .titulo__index h2{
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-size: 80px;
+    color: #ffffff;
 } 
 
 .portada{
@@ -83,12 +86,17 @@ body{
     align-items: center;
     margin-bottom: 100px;
     margin-top: 100px;
+    
 }
 
 .portada__imagen{
     width: 400px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(10,10,10,0.5)),url(Imagenes/navegador.jpg);
+    background-size: cover;
+    background-position: center;
     
 }
+
 
 .portada__texto{
     width: 600px;
@@ -191,3 +199,7 @@ body{
 
 
 
+@media (max-width: 991px){
+
+
+}
