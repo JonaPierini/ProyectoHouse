@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #e5e5e5;
+    
     
 }
 
@@ -99,7 +99,10 @@ body{
     
 }
 
-
+/* INDEX COLOR */
+.colorIndex{
+    background-color: #e5e5e5;
+}
 
 /* INDEX */
 
@@ -390,6 +393,70 @@ section{
 
 }
 
+
+@media (max-width: 990px){
+
+    .contenedorNavegador{
+        /* height: 700px;
+        background-image: url(Imagenes/compu.jpg);
+        background-size: cover;
+        background-repeat: no-repeat; 
+        width: 100%;
+
+        position: relative;
+         */
+
+        
+    }
+    
+    .tituloNavegador{
+        /* position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 100%;
+        margin-left: 40px; */
+        margin-left: 5px;
+        height: 350px;
+        margin-top: 150px;
+        width: 500px;
+        
+
+        
+
+            
+    }
+    
+    
+    .tituloNavegador__titulo h2{
+        /* width: 400px;   
+        text-align: start;
+        font-size: 100px;
+        font-family: 'Bebas Neue', cursive;
+        color: #ffffff; */
+        font-size: 50px;
+        width: 300px;
+        text-align: center;
+        
+    }
+    
+    
+    .tituloNavegador__parrafo p{
+        /* text-align: start;
+        width: 400px;
+        font-family: 'Montserrat', sans-serif;
+        font-size:  20px;
+        color: #ffffff; */
+        width: 300px;
+        font-size: 15px;
+        text-align: center;
+
+        
+        
+    }
+    
+
 @media (max-width: 740px){
 
     .contenedorNavegador{
@@ -413,7 +480,10 @@ section{
         align-items: flex-start;
         height: 100%;
         margin-left: 40px; */
-        margin-left: 0;
+        margin-left: 5px;
+        height: 50%;
+        margin-top: 150px;
+
         
 
             
@@ -428,6 +498,7 @@ section{
         color: #ffffff; */
         font-size: 50px;
         width: 200px;
+        text-align: center;
         
     }
     
@@ -440,6 +511,7 @@ section{
         color: #ffffff; */
         width: 200px;
         font-size: 15px;
+        text-align: center;
         
         
     }
