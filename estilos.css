@@ -171,11 +171,12 @@ section{
     background: linear-gradient(100.37deg, #610098 38.77%, #440098 82.37%);
 }
 
-.titulofooter{
+.titulofooter h3{
     color: #ffffff;
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
     padding-top: 10px;
+    
 }
 
 
@@ -363,8 +364,10 @@ section{
 
 
 
-.titulofooter {
+.titulofooter h3 {
     font-size: 15px;
+    display: flex;
+    
     
 }
 
