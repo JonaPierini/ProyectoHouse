@@ -42,6 +42,7 @@ body{
     color: #ffffff;
     text-decoration: none;
     
+    
 }
 
 .contenedorNavegador__titulo a:hover{
@@ -252,7 +253,9 @@ section{
    /* BARRA DE NAVEGACION */
 
 
-
+.contenedorNavegador__titulo{
+    margin-top: 0;
+}
 .navbar-nav{
     display: flex;
     flex-direction: column;
@@ -266,7 +269,7 @@ section{
 .navbar-toggler{
     background-color:#ffffff;
     border: none;
-    margin: 0px 10px 0px 0px;
+    margin: 0px 10px 15px 0px;
     padding: 0px 3px 0px 3px;
 }
 
@@ -275,23 +278,13 @@ section{
      
     position: static;
     padding: 0px;
-    height: 85px;
 
-    /* background-color: rgba(0, 0, 0, 0.22);
-    position: fixed;
-    width: 100%;
-    margin: 0;
-    height: 50px;
-    padding: 20px; */
 
 }
 .contenedorNavegador__titulo a{
     font-size: 30px;
     margin-left: 10px;
-    /* font-size: 40px;
-    font-family: 'Bebas Neue', cursive;
-    color: #ffffff;
-    text-decoration: none; */
+   
     
 
 }
@@ -299,10 +292,7 @@ section{
 
 .nav-link{
     font-size: 15px;
-    /* color: #ffffff !important; 
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    transition-duration: 1s; */
+   
  
 }
 
@@ -310,13 +300,6 @@ section{
 .tituloNavegador{
 
 
-    /* position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
-    margin-left: 40px; */
     height: 400px;
     margin-top: 250px;
     width: 600px;
@@ -327,11 +310,6 @@ section{
 
 .tituloNavegador__titulo{
     font-size: 75px;
-    /* width: 400px;   
-    text-align: start;
-    font-size: 100px;
-    font-family: 'Bebas Neue', cursive;
-    color: #ffffff; */
     text-align: center;
     width: 500px;
     
@@ -343,11 +321,7 @@ section{
     width: 500px;
     text-align: center;
 
-    /* text-align: start;
-    width: 400px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    color: #ffffff; */
+  /
     
 }
 
@@ -425,34 +399,15 @@ section{
      
         position: static;
         padding: 0px;
-        height: 83.7px;
+        
        
     
     
     }
 
-    .navbar-nav{
-        background-color:  rgba(0, 0, 0, 0.22);
-        align-items: none;
-        /* width: 100%;
-        display: flex;
-        justify-content: flex-end;
-        flex-direction: column;
-        align-items: flex-start; */
-    } 
-
-
-
-  
     
     .tituloNavegador{
-        /* position: absolute;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        height: 100%;
-        margin-left: 40px; */
+        
         margin-left: 0;
         width: 200px;
         margin-top: 300px;
@@ -464,11 +419,7 @@ section{
     
     
     .tituloNavegador__titulo {
-        /* width: 400px;   
-        text-align: start;
-        font-size: 100px;
-        font-family: 'Bebas Neue', cursive;
-        color: #ffffff; */
+        
         font-size: 50px;
         width: 200px;
         
@@ -476,11 +427,7 @@ section{
     
     
     .tituloNavegador__parrafo p{
-        /* text-align: start;
-        width: 400px;
-        font-family: 'Montserrat', sans-serif;
-        font-size:  20px;
-        color: #ffffff; */
+       
         width: 200px;
         font-size: 15px;
         
