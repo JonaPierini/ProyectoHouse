@@ -255,6 +255,7 @@ section{
 
 .contenedorNavegador__titulo{
     margin-top: 0;
+    margin-bottom: 10px;
 }
 .navbar-nav{
     display: flex;
@@ -269,8 +270,8 @@ section{
 .navbar-toggler{
     background-color:#ffffff;
     border: none;
-    margin: 0px 10px 15px 0px;
-    padding: 0px 3px 0px 3px;
+    margin: 0px 5px 5px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 
