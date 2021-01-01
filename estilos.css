@@ -406,6 +406,33 @@ section{
 
 @media (max-width: 740px){
 
+
+    .navbar-light{
+     
+        position: static;
+        padding: 0px;
+        height: 84px;
+        background-color: blue;
+    
+        /* background-color: rgba(0, 0, 0, 0.22);
+        position: fixed;
+        width: 100%;
+        margin: 0;
+        height: 50px;
+        padding: 20px; */
+    
+    }
+
+    .navbar-nav{
+        background-color: red;
+        align-items: none;
+        /* width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        align-items: flex-start; */
+    } 
+
     .contenedorNavegador{
         /* height: 700px;
         background-image: url(Imagenes/compu.jpg);
