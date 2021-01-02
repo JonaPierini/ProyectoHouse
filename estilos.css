@@ -256,6 +256,8 @@ section{
 .contenedorNavegador__titulo{
     margin-top: 0;
     margin-bottom: 12px;
+    padding-bottom: 0;
+    height: 39.5px;
 }
 .navbar-nav{
     display: flex;
