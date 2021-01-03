@@ -202,6 +202,8 @@ body{
 
 .seccion__Dos--uno h3{
     color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
 }
 
 .seccion__Dos--uno p{
@@ -209,6 +211,8 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
     color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
 }
 
 /* SeccionDos/ Dos */
@@ -234,12 +238,16 @@ body{
 
 .seccion__Dos--dos h3{
     color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
 }
 
 .seccion__Dos--dos p{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
 }
 
 
@@ -266,6 +274,7 @@ body{
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-bottom: 5px;
     margin-bottom: 10px;
     background: linear-gradient(100.37deg, #610098 38.77%, #440098 82.37%);
 }
@@ -432,7 +441,10 @@ body{
 
 
 
-
+.titulofooter{
+    height: 20px;
+    padding-bottom: 8px;
+}
 .titulofooter a {
     font-size: 15px;
     display: flex;
