@@ -15,7 +15,7 @@ body{
 
 .contenedorNavegador{
     height: 700px;
-    background-image: url(Imagenes/compu.jpg);
+    background-image: url(Imagenes/index.jpeg);
     background-size: cover;
     background-repeat: no-repeat; 
     width: 100%;
@@ -107,7 +107,7 @@ body{
 /* COLOR INDEX */
 
 .colorFondoIndex{
-    background-color:  #f1f1f1;
+    background-color:  #f0eeee;
 }
 
 /* INDEX */
@@ -135,7 +135,7 @@ body{
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
     
     
     
@@ -172,7 +172,6 @@ body{
 .contenedorSeccionDos{
     display: flex; 
     justify-content: space-evenly;
-    margin-bottom: 100px;
     flex-wrap: wrap;
     
     
@@ -190,6 +189,8 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #ffffff;
+    margin-bottom: 100px;
+    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
     
 }
 
@@ -226,7 +227,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff
+    background-color: #ffffff;
+    margin-bottom: 75px;
+    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
+
 }
 
 
@@ -251,6 +255,85 @@ body{
 }
 
 
+/* NOSOTROS */
+
+.colorFondoNosotros{
+    background-color: rgb(0, 0, 0);
+}
+
+.contenedorNavegadorNosotros{
+    height: 700px;
+    background-image: url(Imagenes/creacion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    /* POSITION */
+    position: relative;
+    
+}
+
+.tituloPrincipalNosotros{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+.tituloPrincipalNosotros span{
+    
+    color: #470098;
+}
+
+.SeccionUnoNosotros{
+        height: 700px;
+        border-bottom: 2px solid #ffffff;
+}   
+
+
+
+/* SERVICIOS */
+.contenedorNavegadorServicios{
+    height: 700px;
+    background-image: url(Imagenes/servicios.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    /* POSITION */
+    position: relative;
+    
+   
+}
+
+/* GALERIA  */
+.contenedorNavegadorGaleria{
+    height: 700px;
+    background-image: url(Imagenes/compu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    /* POSITION */
+    position: relative;
+    
+   
+}
+
+/* CONTACTOS */
+
+.contenedorNavegadorContactos{
+    height: 700px;
+    background-image: url(Imagenes/compu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    /* POSITION */
+    position: relative;
+    
+   
+}
+
 /* FOOTER */
 
 
@@ -265,6 +348,7 @@ body{
     height: 400px;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
     
 }
 
@@ -284,6 +368,7 @@ body{
     font-size: 30px;
     font-family: 'Bebas Neue', cursive;
     padding-top: 10px;
+    text-decoration: none;
     
 }
 
@@ -378,26 +463,21 @@ body{
     font-size: 30px;
     margin-left: 10px;
    
-    
-
 }
 
 
 .nav-link{
     font-size: 15px;
    
- 
 }
 
 
 .tituloNavegador{
 
-
     height: 400px;
     margin-top: 250px;
     width: 600px;
     
-        
 }
 
 
@@ -414,16 +494,15 @@ body{
     width: 500px;
     text-align: center;
 
-  
-    
 }
 
 
 .tituloPrincipal{
-    
     font-size: 70px;
     
 }
+
+
 
 .portada__texto{
     margin-top: 40px;
@@ -434,7 +513,12 @@ body{
     
 }
 
+/* TituloPrincipalNosotros */
 
+.tituloPrincipalNosotros{
+    font-size: 70px;
+
+}
 
 
 /* FOOTER */
@@ -442,13 +526,12 @@ body{
 
 
 .titulofooter{
-    height: 20px;
+    
     padding-bottom: 8px;
 }
 .titulofooter a {
     font-size: 15px;
     display: flex;
-    
     
 }
 
@@ -484,9 +567,6 @@ body{
     
 }
 
-
-
-
 }
 
 @media (max-width: 740px){
@@ -498,8 +578,6 @@ body{
         padding: 0px;
         
        
-    
-    
     }
 
     
@@ -511,7 +589,6 @@ body{
         height: 300px;
         
 
-            
     }
     
     
@@ -536,10 +613,15 @@ body{
         margin-bottom: 40px;
     }
     
-  
-    .seccion__Dos--uno{
-        margin-bottom: 30px;
+    /* TituloPrincipalNosotros */
+
+    .tituloPrincipalNosotros{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        
     }
     
     
+  
+
 }
