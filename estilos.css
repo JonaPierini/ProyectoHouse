@@ -263,7 +263,7 @@ body{
 
 .contenedorNavegadorNosotros{
     height: 700px;
-    background-image: url(Imagenes/creacion.jpg);
+    background-image: url(Imagenes/nosotros.jpeg);
     background-size: cover;
     background-repeat: no-repeat; 
     width: 100%;
@@ -321,10 +321,13 @@ body{
 }
 
 /* CONTACTOS */
+.colorFondoContactos{
+    background-color: rgb(0, 0, 0);
+}
 
 .contenedorNavegadorContactos{
     height: 700px;
-    background-image: url(Imagenes/compu.jpg);
+    background-image: url(Imagenes/contactos.jpg);
     background-size: cover;
     background-repeat: no-repeat; 
     width: 100%;
@@ -333,6 +336,27 @@ body{
     
    
 }
+
+
+.tituloPrincipalContactos{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+.tituloPrincipalContactos span{
+    
+    color: #470098;
+}
+
+.SeccionUnoContactos{
+        height: 700px;
+        border-bottom: 2px solid #ffffff;
+} 
 
 /* FOOTER */
 
@@ -520,6 +544,11 @@ body{
 
 }
 
+/* TituloPrincipalContactos */
+.tituloPrincipalContactos{
+    font-size: 70px;
+}
+
 
 /* FOOTER */
 
@@ -621,7 +650,11 @@ body{
         
     }
     
-    
+    /* TituloPrincipaContactos */
+    .tituloPrincipalContactos{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
   
 
 }
