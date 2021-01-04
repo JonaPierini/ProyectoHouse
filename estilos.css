@@ -15,7 +15,7 @@ body{
 
 .contenedorNavegador{
     height: 700px;
-    background-image: url(Imagenes/index.jpeg);
+    background-image: url(Imagenes/inicio.jpeg);
     background-size: cover;
     background-repeat: no-repeat; 
     width: 100%;
@@ -88,7 +88,7 @@ body{
     text-align: center;
     font-size: 100px;
     font-family: 'Bebas Neue', cursive;
-    color: #ffffff;
+    color:  #ffffff;
     line-height: 1;
     
     
@@ -165,7 +165,7 @@ body{
 }
 
 
-/* SECCION DOS */
+/* SECCION DOS INDEX*/
 
 
 
@@ -177,7 +177,7 @@ body{
     
 }
 
-/* SeccionDos/ Uno */ 
+/* SeccionDos/ Uno INDEX */ 
 
 .seccion__Dos--uno{
     border-top: 15px solid #470098;
@@ -216,7 +216,7 @@ body{
     font-size: 17px;
 }
 
-/* SeccionDos/ Dos */
+/* SeccionDos/ Dos INDEX*/
 
 .seccion__Dos--dos{
     border-top: 15px solid #470098;
@@ -258,7 +258,7 @@ body{
 /* NOSOTROS */
 
 .colorFondoNosotros{
-    background-color: rgb(0, 0, 0);
+    background-color: #f0eeee;
 }
 
 .contenedorNavegadorNosotros{
@@ -277,11 +277,11 @@ body{
     margin-bottom: 60px;
     text-align: center;
     font-size: 100px;
-    color: #ffffff;
+    color: rgb(0, 0, 0);
     font-family: 'Bebas Neue', cursive;
     
-    
 }
+
 .tituloPrincipalNosotros span{
     
     color: #470098;
@@ -289,45 +289,96 @@ body{
 
 .SeccionUnoNosotros{
         height: 700px;
-        border-bottom: 2px solid #ffffff;
+        
 }   
 
 
 
 /* SERVICIOS */
-.contenedorNavegadorServicios{
-    height: 700px;
-    background-image: url(Imagenes/servicios.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    width: 100%;
-    /* POSITION */
-    position: relative;
-    
-   
+
+.colorFondoServicios{
+    background-color: #f0eeee;
 }
 
-/* GALERIA  */
-.contenedorNavegadorGaleria{
+.contenedorNavegadorServicios{
     height: 700px;
-    background-image: url(Imagenes/compu.jpg);
+    background-image: url(Imagenes/serviciosdosjpeg.jpeg);
     background-size: cover;
     background-repeat: no-repeat; 
     width: 100%;
     /* POSITION */
     position: relative;
     
-   
 }
+
+.tituloPrincipalServicios{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+.tituloPrincipalPrincipal span{
+    
+    color: #470098;
+}
+
+.SeccionUnoServicios{
+        height: 700px;
+        
+}   
+
+
+
+
+/* GALERIA  */
+
+.colorFondoGaleria{
+    background-color: #f0eeee;
+}
+
+.contenedorNavegadorGaleria{
+    height: 700px;
+    background-image: url(Imagenes/galeria.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    width: 100%;
+    /* POSITION */
+    position: relative;
+    
+}
+
+.tituloPrincipalGaleria{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 100px;
+    color: color: rgb(0, 0, 0);
+    font-family: 'Bebas Neue', cursive;
+    
+    
+}
+.tituloPrincipalGaleria span{
+    
+    color: #470098;
+}
+
+.SeccionUnoGaleria{
+        height: 700px;
+        
+}  
 
 /* CONTACTOS */
 .colorFondoContactos{
-    background-color: rgb(0, 0, 0);
+    background-color: #f0eeee;
 }
 
 .contenedorNavegadorContactos{
     height: 700px;
-    background-image: url(Imagenes/contactos.jpg);
+    background-image: url(Imagenes/contactos.jpeg);
     background-size: cover;
     background-repeat: no-repeat; 
     width: 100%;
@@ -343,7 +394,7 @@ body{
     margin-bottom: 60px;
     text-align: center;
     font-size: 100px;
-    color: #ffffff;
+    color: rgb(0, 0, 0);
     font-family: 'Bebas Neue', cursive;
     
     
@@ -355,7 +406,7 @@ body{
 
 .SeccionUnoContactos{
         height: 700px;
-        border-bottom: 2px solid #ffffff;
+        
 } 
 
 /* FOOTER */
@@ -549,6 +600,16 @@ body{
     font-size: 70px;
 }
 
+/* TituloPrincipalServicios */
+
+.tituloPrincipalServicios{
+    font-size: 70px;
+}
+
+/* TituloPrincipalGaleria */
+.tituloPrincipalGaleria{
+    font-size: 70px
+}
 
 /* FOOTER */
 
@@ -655,6 +716,18 @@ body{
         margin-top: 40px;
         margin-bottom: 40px;
     }
-  
+
+    /* TituloPrincialServicios */
+    .tituloPrincipalServicios{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    /* TituloPrincialGaleria */
+    .tituloPrincipalGaleria{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
 
 }
