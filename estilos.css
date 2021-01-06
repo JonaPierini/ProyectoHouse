@@ -6,8 +6,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
-    
+
+
 }
 
 
@@ -17,37 +17,38 @@ body{
     height: 700px;
     background-image: url(Imagenes/inicio.jpeg);
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     width: 100%;
     /* POSITION */
     position: relative;
-    
-   
+
+
 }
 .navbar-light{
-    
+
     background-color: rgba(0, 0, 0, 0.22);
     position: fixed;
     width: 100%;
     margin-top: 0;
-    height: 50px;
+    height: 70px;
     padding: 20px;
+    z-index: 100;
 
 }
 
 
-.contenedorNavegador__titulo a{
+.contenedorNavegador__titulo {
     font-size: 40px;
     font-family: 'Bebas Neue', cursive;
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: none !important;
     transition-duration: 1s;
-    
-    
+
+
 }
 
-.contenedorNavegador__titulo a:hover{
-    color: #470098;
+.contenedorNavegador__titulo:hover{
+    color: #fd6ebd;
 }
 
 
@@ -60,14 +61,15 @@ body{
     align-items: flex-start;
 }
 .nav-link{
-    color: #ffffff !important; 
+    color: #ffffff !important;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     transition-duration: 1s;
+    font-weight: bold;
 }
 .nav-link:hover{
-    color: #470098 !important;
-    font-weight: bold;
+    color: #fd6ebd !important;
+
 }
 
 .tituloNavegador{
@@ -78,20 +80,20 @@ body{
     align-items: flex-start;
     height: 100%;
     margin-left: 40px;
-    
-        
+
+
 }
 
 
 .tituloNavegador__titulo {
-    width: 400px;   
+    width: 400px;
     text-align: center;
     font-size: 100px;
     font-family: 'Bebas Neue', cursive;
     color:  #ffffff;
     line-height: 1;
-    
-    
+
+
 }
 
 
@@ -101,49 +103,40 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size:  20px;
     color: #ffffff;
-    
+
 }
 
 /* COLOR INDEX */
 
 .colorFondoIndex{
-    background-color:  #f0eeee;
+    background-color:  #fafafa;
 }
 
 /* INDEX */
 
-.tituloPrincipal{
-    margin-top: 80px;
-    margin-bottom: 60px;
-    text-align: center;
-    font-size: 100px;
-    color: rgb(0, 0, 0);
-    font-family: 'Bebas Neue', cursive;
-    
-}
-.tituloPrincipal span{
-    
-    color: #470098;
-}
 
-/* SECCION UNO */
+/* SECCION UNO INDEX */
 
-.seccionUna{
-   
+.contenedorSeccionUna{
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 150px;
-    
-    
-    
+    margin-top: 200px;
+    margin-bottom: 200px;
+
+
+
 }
 
 .portada__imagen{
     width: 400px;
 
+}
+.portada__imagen img{
+    height: 350px;
 }
 
 .portada__texto{
@@ -170,17 +163,17 @@ body{
 
 
 .contenedorSeccionDos{
-    display: flex; 
+    display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-    
+
+
 }
 
-/* SeccionDos/ Uno INDEX */ 
+
 
 .seccion__Dos--uno{
-    border-top: 15px solid #470098;
+    border-top: 15px solid #9b2465;
     border-radius: 10px;
     width: 250px;
     height: 350px;
@@ -188,17 +181,16 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
     margin-bottom: 100px;
     background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
-    
+
 }
 
 .seccion__Dos--uno img{
     width: 40px;
     height: 40px;
     margin-bottom: 20px;
-    
+
 }
 
 .seccion__Dos--uno h3{
@@ -216,10 +208,10 @@ body{
     font-size: 17px;
 }
 
-/* SeccionDos/ Dos INDEX*/
+
 
 .seccion__Dos--dos{
-    border-top: 15px solid #470098;
+    border-top: 15px solid #9b2465;
     border-radius: 10px;
     width: 250px;
     height: 350px;
@@ -227,7 +219,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
     margin-bottom: 75px;
     background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
 
@@ -254,160 +245,127 @@ body{
     font-size: 17px;
 }
 
+.seccion__Dos--tres{
+    border-top: 15px solid #9b2465;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
 
-/* NOSOTROS */
-
-.colorFondoNosotros{
-    background-color: #f0eeee;
 }
 
-.contenedorNavegadorNosotros{
-    height: 700px;
-    background-image: url(Imagenes/nosotros.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    width: 100%;
-    /* POSITION */
-    position: relative;
-    
+
+.seccion__Dos--tres img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
 }
 
-.tituloPrincipalNosotros{
-    margin-top: 80px;
-    margin-bottom: 60px;
-    text-align: center;
-    font-size: 100px;
+.seccion__Dos--tres h3{
     color: rgb(0, 0, 0);
     font-family: 'Bebas Neue', cursive;
-    
+    font-size: 25px;
 }
 
-.tituloPrincipalNosotros span{
-    
-    color: #470098;
-}
-
-.SeccionUnoNosotros{
-        height: 700px;
-        
-}   
-
-
-
-/* SERVICIOS */
-
-.colorFondoServicios{
-    background-color: #f0eeee;
-}
-
-.contenedorNavegadorServicios{
-    height: 700px;
-    background-image: url(Imagenes/serviciosdosjpeg.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    width: 100%;
-    /* POSITION */
-    position: relative;
-    
-}
-
-.tituloPrincipalServicios{
-    margin-top: 80px;
-    margin-bottom: 60px;
+.seccion__Dos--tres p{
     text-align: center;
-    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+/* SECCION TRES - INDEX */
+
+
+.contenedorSeccionTres{
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+
+.seccion__Tres--uno{
+    border-top: 15px solid #9b2465;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
+    
+}
+
+.seccion__Tres--uno img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+    
+}
+
+.seccion__Tres--uno h3{
     color: rgb(0, 0, 0);
     font-family: 'Bebas Neue', cursive;
-    
-    
-}
-.tituloPrincipalPrincipal span{
-    
-    color: #470098;
+    font-size: 25px;
 }
 
-.SeccionUnoServicios{
-        height: 700px;
-        
-}   
-
-
-
-
-/* GALERIA  */
-
-.colorFondoGaleria{
-    background-color: #f0eeee;
-}
-
-.contenedorNavegadorGaleria{
-    height: 700px;
-    background-image: url(Imagenes/galeria.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    width: 100%;
-    /* POSITION */
-    position: relative;
-    
-}
-
-.tituloPrincipalGaleria{
-    margin-top: 80px;
-    margin-bottom: 60px;
+.seccion__Tres--uno p{
     text-align: center;
-    font-size: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+
+
+.seccion__Tres--dos{
+    border-top: 15px solid #9b2465;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 75px;
+    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
+
+}
+
+
+.seccion__Tres--dos img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.seccion__Tres--dos h3{
     color: rgb(0, 0, 0);
     font-family: 'Bebas Neue', cursive;
-    
-    
-}
-.tituloPrincipalGaleria span{
-    
-    color: #470098;
+    font-size: 25px;
 }
 
-.SeccionUnoGaleria{
-        height: 700px;
-        
-}  
-
-/* CONTACTOS */
-.colorFondoContactos{
-    background-color: #f0eeee;
-}
-
-.contenedorNavegadorContactos{
-    height: 700px;
-    background-image: url(Imagenes/contactos.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat; 
-    width: 100%;
-    /* POSITION */
-    position: relative;
-    
-   
-}
-
-
-.tituloPrincipalContactos{
-    margin-top: 80px;
-    margin-bottom: 60px;
+.seccion__Tres--dos p{
     text-align: center;
-    font-size: 100px;
-    color: rgb(0, 0, 0);
-    font-family: 'Bebas Neue', cursive;
-    
-    
-}
-.tituloPrincipalContactos span{
-    
-    color: #470098;
-}
-
-.SeccionUnoContactos{
-        height: 700px;
-        
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
 } 
+
 
 /* FOOTER */
 
@@ -424,7 +382,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    
+
 }
 
 .titulofooter{
@@ -440,19 +398,19 @@ body{
 
 .titulofooter a{
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     padding-top: 10px;
     text-decoration: none;
-    
+
 }
 
 
 .Redes__Sociales .Redes__Sociales--whats a, .Redes__Sociales .Redes__Sociales--instagram a{
     text-decoration: none;
     color: #ffffff;
-    
-    font-size: 20px;
+
+    font-size: 15px;
 }
 .Redes__Sociales li{
     list-style: none;
@@ -473,10 +431,10 @@ body{
 }
 
 .Redes__Sociales img{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 10px;
-   
+
 
 }
 
@@ -485,15 +443,15 @@ body{
     font-family: 'Mukta', sans-serif;
     margin-bottom: 15px;
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 15px;
     color: #ffffff ;
-    
+
 }
 
 .DerechosFooter p{
     color: #ffffff;
-    font-size: 15px;
-    
+    font-size: 12px;
+
 }
 
 /* MEDIA QUERY */
@@ -507,43 +465,48 @@ body{
     margin-top: 0;
     margin-bottom: 15px;
     padding-bottom: 0;
-    height: 39.5px;
+    height: 35px;
 }
 .navbar-nav{
     display: flex;
     flex-direction: column;
-    
+    background-color: rgba(0, 0, 0, 0.9);
+
 }
 
 .nav-item{
-    border-bottom: 2px solid #470098;
+    border-bottom: 2px solid #ffffff;
     width: 100%;
 }
 .navbar-toggler{
     background-color:#ffffff;
     border: none;
-    margin: 0px 5px 10px 0px;
+    margin: 5px 5px 10px 0px;
     padding: 0px 0px 0px 0px;
 }
 
 
 .navbar-light{
-     
+
     position: static;
     padding: 0px;
-
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.9);
 
 }
-.contenedorNavegador__titulo a{
+
+
+.contenedorNavegador__titulo {
     font-size: 30px;
     margin-left: 10px;
-   
+
 }
 
 
 .nav-link{
     font-size: 15px;
-   
+    font-weight: bold;
+
 }
 
 
@@ -552,7 +515,7 @@ body{
     height: 400px;
     margin-top: 250px;
     width: 600px;
-    
+
 }
 
 
@@ -560,7 +523,7 @@ body{
     font-size: 75px;
     text-align: center;
     width: 500px;
-    
+
 }
 
 
@@ -572,12 +535,6 @@ body{
 }
 
 
-.tituloPrincipal{
-    font-size: 70px;
-    
-}
-
-
 
 .portada__texto{
     margin-top: 40px;
@@ -585,44 +542,22 @@ body{
 
 .portada__texto h2{
     font-size: 50px;
-    
-}
-
-/* TituloPrincipalNosotros */
-
-.tituloPrincipalNosotros{
-    font-size: 70px;
 
 }
 
-/* TituloPrincipalContactos */
-.tituloPrincipalContactos{
-    font-size: 70px;
-}
-
-/* TituloPrincipalServicios */
-
-.tituloPrincipalServicios{
-    font-size: 70px;
-}
-
-/* TituloPrincipalGaleria */
-.tituloPrincipalGaleria{
-    font-size: 70px
-}
 
 /* FOOTER */
 
 
 
 .titulofooter{
-    
+
     padding-bottom: 8px;
 }
 .titulofooter a {
     font-size: 15px;
     display: flex;
-    
+
 }
 
 
@@ -646,15 +581,15 @@ body{
 
 
 .ContactosFooter{
-   
+
     font-size: 12px;
-    
+
 }
 
 .DerechosFooter p{
-    
+
     font-size: 10px;
-    
+
 }
 
 }
@@ -663,71 +598,49 @@ body{
 
 
     .navbar-light{
-     
+
         position: static;
         padding: 0px;
-        
-       
+
+
     }
 
-    
+
     .tituloNavegador{
-        
+
         margin-left: 0;
         width: 200px;
         margin-top: 300px;
         height: 300px;
-        
+
 
     }
-    
-    
+
+
     .tituloNavegador__titulo {
-        
+
         font-size: 50px;
         width: 200px;
-        
+
     }
-    
-    
+
+
     .tituloNavegador__parrafo p{
-       
+
         width: 200px;
         font-size: 15px;
-        
-        
+
+
     }
 
-    .tituloPrincipal{
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+    .portada__imagen{
+        width: 300px;
     
-    /* TituloPrincipalNosotros */
-
-    .tituloPrincipalNosotros{
-        margin-top: 40px;
-        margin-bottom: 40px;
-        
     }
-    
-    /* TituloPrincipaContactos */
-    .tituloPrincipalContactos{
-        margin-top: 40px;
-        margin-bottom: 40px;
+    .portada__imagen img{
+        height: 250px;
     }
-
-    /* TituloPrincialServicios */
-    .tituloPrincipalServicios{
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
-
-    /* TituloPrincialGaleria */
-    .tituloPrincipalGaleria{
-        margin-top: 40px;
-        margin-bottom: 40px;
-    }
+   
 
 
 }
