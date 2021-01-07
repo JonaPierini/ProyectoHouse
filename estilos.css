@@ -116,7 +116,7 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-.contenedorSeccionUna{
+.contenedorPortada{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -182,7 +182,69 @@ body{
     display: block;
 }
 
+/* OPIONES INDEX */
 
+.contenedorOpiniones__titulo{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.contenedorOpiniones__titulo h3{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #642a73;
+    text-transform: capitalize;
+}
+
+.contenedorOpiniones{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenedorOpionesTodo{
+   display: flex;
+   background-color:#4d0686;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 400px;
+   justify-content: center;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
+}
+
+.contenedorOpinionesTodo__imagen{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedorOpinionesTodo__imagen img{
+    width: 100%;
+    height: 100%;
+}
+
+.contenedorOpinionesTodo__opionion{
+    width: 100%;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.contenedorOpinionesTodo__opionion p{
+    text-align: center;
+    color: #ffffff;
+    font-weight: lighter;
+    
+}
 
 /* FOOTER */
 
@@ -374,6 +436,12 @@ body{
     font-size: 10px;
 }
 
+/* SECCION OPINIONES INDEX */
+.contenedorOpionesTodo{
+    margin: 15px;
+}
+
+
 }
 
 @media (max-width: 740px){
@@ -398,7 +466,7 @@ body{
         width: 200px;
         font-size: 15px;
     }
-
+    /* PORTADA INDEX */
     .portada__imagen{
         width: 300px;
     }
@@ -407,8 +475,10 @@ body{
         height: 250px;
     }
 
+    /* PORTOFOLIO INDEX */
     .imagen-port{
         width: 48%;
     }
-   
+
+    
 }
