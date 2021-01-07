@@ -155,10 +155,13 @@ body{
     font-size: 40px;
     color: #642a73;
     text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .portafolio{
     background-color: #f2f2f2;
+    padding-bottom: 30px;
 }
 
 .galeria-port{
@@ -220,6 +223,7 @@ body{
     height: 80px;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .contenedorOpinionesTodo__imagen img{
@@ -231,7 +235,7 @@ body{
     width: 100%;
 }
 
-span{
+.contenedorOpinionesTodo__opionion--mujer{
     display: flex;
     justify-content: center;
     color: #ffffff;
@@ -245,6 +249,60 @@ span{
     font-weight: lighter;
     
 }
+
+/* SERVICIOS INDEX */
+
+.seccionServicios{
+    background-color:  #f2f2f2;
+    margin-top: 100px;
+}
+
+.seccionServicios h4{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 35px;
+    color: #642a73;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.contenedorServicios{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-bottom: 30px;
+    
+}
+
+.contenedorServicios__contenido{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.contenedorServicios__contenido img{
+    width: 300px;
+    height: 200px;
+}
+
+.contenedorServicios__contenido p{
+    width: 200px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}
+
+.contenedorServicios__contenido span{
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    font-weight: bold;
+}
+
 
 /* FOOTER */
 
@@ -390,6 +448,8 @@ span{
     text-align: center;
 }
 
+/* PORTADA INDEX */
+
 .portada__texto{
     margin-top: 40px;
 }
@@ -441,6 +501,10 @@ span{
     margin: 15px;
 }
 
+/* SECCION SERVICIOS SERVICIOS */
+.contenedorServicios__contenido{
+    margin: 15px;
+}
 
 }
 
