@@ -21,7 +21,7 @@ body{
     width: 100%;
     /* POSITION */
     position: relative;
-
+    
 
 }
 .navbar-light{
@@ -48,7 +48,7 @@ body{
 }
 
 .contenedorNavegador__titulo:hover{
-    color: #fd6ebd;
+    color:  #440098;
 }
 
 
@@ -68,7 +68,7 @@ body{
     font-weight: bold;
 }
 .nav-link:hover{
-    color: #fd6ebd !important;
+    color:  #440098 !important;
 
 }
 
@@ -158,213 +158,11 @@ body{
 }
 
 
-/* SECCION DOS INDEX*/
+/* TITULO SERVICIOS */
 
-
-
-.contenedorSeccionDos{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-
-
-}
-
-
-
-.seccion__Dos--uno{
-    border-top: 15px solid #9b2465;
-    border-radius: 10px;
-    width: 250px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
-    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
-
-}
-
-.seccion__Dos--uno img{
-    width: 40px;
-    height: 40px;
-    margin-bottom: 20px;
-
-}
-
-.seccion__Dos--uno h3{
-    color: rgb(0, 0, 0);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-}
-
-.seccion__Dos--uno p{
+.tituloIndexServicios__titulo{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
 }
-
-
-
-.seccion__Dos--dos{
-    border-top: 15px solid #9b2465;
-    border-radius: 10px;
-    width: 250px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 75px;
-    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
-
-}
-
-
-.seccion__Dos--dos img{
-    width: 40px;
-    height: 40px;
-    margin-bottom: 20px;
-}
-
-.seccion__Dos--dos h3{
-    color: rgb(0, 0, 0);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-}
-
-.seccion__Dos--dos p{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-}
-
-.seccion__Dos--tres{
-    border-top: 15px solid #9b2465;
-    border-radius: 10px;
-    width: 250px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 75px;
-    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
-
-}
-
-
-.seccion__Dos--tres img{
-    width: 40px;
-    height: 40px;
-    margin-bottom: 20px;
-}
-
-.seccion__Dos--tres h3{
-    color: rgb(0, 0, 0);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-}
-
-.seccion__Dos--tres p{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-}
-
-/* SECCION TRES - INDEX */
-
-
-.contenedorSeccionTres{
-    display: flex; 
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    
-    
-}
-
-
-
-.seccion__Tres--uno{
-    border-top: 15px solid #9b2465;
-    border-radius: 10px;
-    width: 250px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 100px;
-    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
-    
-}
-
-.seccion__Tres--uno img{
-    width: 40px;
-    height: 40px;
-    margin-bottom: 20px;
-    
-}
-
-.seccion__Tres--uno h3{
-    color: rgb(0, 0, 0);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-}
-
-.seccion__Tres--uno p{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: rgb(0, 0, 0);
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-}
-
-
-
-.seccion__Tres--dos{
-    border-top: 15px solid #9b2465;
-    border-radius: 10px;
-    width: 250px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 75px;
-    background: linear-gradient(100.37deg, #f3f0f5 38.77%, #ede4f8 82.37%);
-
-}
-
-
-.seccion__Tres--dos img{
-    width: 40px;
-    height: 40px;
-    margin-bottom: 20px;
-}
-
-.seccion__Tres--dos h3{
-    color: rgb(0, 0, 0);
-    font-family: 'Bebas Neue', cursive;
-    font-size: 25px;
-}
-
-.seccion__Tres--dos p{
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
-} 
 
 
 /* FOOTER */
