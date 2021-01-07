@@ -1,41 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
 /* BODY */
 
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-
+    background-color: #ffffff;
 }
-
 
 /* BARRA DE NAVEGACION */
 
 .contenedorNavegador{
     height: 700px;
-    background-image: url(Imagenes/inicio.jpeg);
+
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(313, 75%, 69%, 0.24), hsla(317, 45%, 52%, 0.274)), url(Imagenes/inicio.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(313, 75%, 69%, 0.24), hsla(317, 45%, 52%, 0.274)), url(Imagenes/inicio.jpeg) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+
+
+
+    /* background-image: url(Imagenes/inicio.jpeg); */
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     /* POSITION */
     position: relative;
-    
-
 }
-.navbar-light{
 
-    background-color: rgba(0, 0, 0, 0.22);
+.navbar-light{
+    background-color: rgba(0, 0, 0, 0.22); 
     position: fixed;
     width: 100%;
     margin-top: 0;
     height: 70px;
     padding: 20px;
     z-index: 100;
-
 }
-
 
 .contenedorNavegador__titulo {
     font-size: 40px;
@@ -43,36 +47,33 @@ body{
     color: #ffffff;
     text-decoration: none !important;
     transition-duration: 1s;
-
-
 }
 
 .contenedorNavegador__titulo:hover{
-    color:  #440098;
+    color:  #642a73;
 }
 
-
 .navbar-nav{
-
     width: 100%;
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
     align-items: flex-start;
 }
+
 .nav-link{
     color: #ffffff !important;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    transition-duration: 1s;
     font-weight: bold;
 }
-.nav-link:hover{
-    color:  #440098 !important;
 
+.nav-link:hover{
+    text-decoration: underline;
 }
 
 .tituloNavegador{
+    /* POSITION */
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -80,10 +81,7 @@ body{
     align-items: flex-start;
     height: 100%;
     margin-left: 40px;
-
-
 }
-
 
 .tituloNavegador__titulo {
     width: 400px;
@@ -92,10 +90,7 @@ body{
     font-family: 'Bebas Neue', cursive;
     color:  #ffffff;
     line-height: 1;
-
-
 }
-
 
 .tituloNavegador__parrafo p{
     text-align: center;
@@ -103,14 +98,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size:  20px;
     color: #ffffff;
-
 }
 
-/* COLOR INDEX */
-
-.colorFondoIndex{
-    background-color:  #fafafa;
+.ola{
+    position: absolute;
+    margin-top: 550px;
+    width: 100%;
 }
+
 
 /* INDEX */
 
@@ -118,7 +113,6 @@ body{
 /* SECCION UNO INDEX */
 
 .contenedorSeccionUna{
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -126,15 +120,12 @@ body{
     align-items: center;
     margin-top: 200px;
     margin-bottom: 200px;
-
-
-
 }
 
 .portada__imagen{
     width: 400px;
-
 }
+
 .portada__imagen img{
     height: 350px;
 }
@@ -169,7 +160,6 @@ body{
 
 
 .ContenedorFooter{
-
     background-color: rgba(0, 0, 0, 0.9);
     text-align: center;
     display: flex;
@@ -180,7 +170,6 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-
 }
 
 .titulofooter{
@@ -200,16 +189,14 @@ body{
     font-family: 'Bebas Neue', cursive;
     padding-top: 10px;
     text-decoration: none;
-
 }
-
 
 .Redes__Sociales .Redes__Sociales--whats a, .Redes__Sociales .Redes__Sociales--instagram a{
     text-decoration: none;
     color: #ffffff;
-
     font-size: 15px;
 }
+
 .Redes__Sociales li{
     list-style: none;
 }
@@ -218,7 +205,6 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-
 }
 
 .Redes__Sociales li {
@@ -232,10 +218,7 @@ body{
     width: 20px;
     height: 20px;
     margin-right: 10px;
-
-
 }
-
 
 .ContactosFooter{
     font-family: 'Mukta', sans-serif;
@@ -243,39 +226,35 @@ body{
     letter-spacing: 5px;
     font-size: 15px;
     color: #ffffff ;
-
 }
 
 .DerechosFooter p{
     color: #ffffff;
     font-size: 12px;
-
 }
 
 /* MEDIA QUERY */
 
 @media (max-width: 991px){
-
    /* BARRA DE NAVEGACION */
-
-
 .contenedorNavegador__titulo{
     margin-top: 0;
     margin-bottom: 15px;
     padding-bottom: 0;
     height: 35px;
 }
+
 .navbar-nav{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.9);
-
+    background-color: rgba(0, 0, 0, 0.22); 
 }
 
 .nav-item{
     border-bottom: 2px solid #ffffff;
     width: 100%;
 }
+
 .navbar-toggler{
     background-color:#ffffff;
     border: none;
@@ -283,56 +262,43 @@ body{
     padding: 0px 0px 0px 0px;
 }
 
-
 .navbar-light{
-
     position: static;
     padding: 0px;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.9);
-
 }
-
 
 .contenedorNavegador__titulo {
     font-size: 30px;
     margin-left: 10px;
-
 }
-
 
 .nav-link{
     font-size: 15px;
     font-weight: bold;
-
 }
 
+.nav-link:hover{
+    text-decoration: none;
+}
 
 .tituloNavegador{
-
     height: 400px;
     margin-top: 250px;
     width: 600px;
-
 }
-
 
 .tituloNavegador__titulo{
     font-size: 75px;
     text-align: center;
     width: 500px;
-
 }
-
 
 .tituloNavegador__parrafo p{
     font-size: 15px;
     width: 500px;
     text-align: center;
-
 }
-
-
 
 .portada__texto{
     margin-top: 40px;
@@ -343,21 +309,16 @@ body{
 
 }
 
-
 /* FOOTER */
 
-
-
 .titulofooter{
-
     padding-bottom: 8px;
 }
+
 .titulofooter a {
     font-size: 15px;
     display: flex;
-
 }
-
 
 .Redes__Sociales .Redes__Sociales--whats a{
     font-size: 12px;
@@ -377,68 +338,45 @@ body{
     height: 22px;
 }
 
-
 .ContactosFooter{
-
     font-size: 12px;
-
 }
 
 .DerechosFooter p{
-
     font-size: 10px;
-
 }
 
 }
 
 @media (max-width: 740px){
-
-
     .navbar-light{
-
         position: static;
         padding: 0px;
-
-
     }
 
-
     .tituloNavegador{
-
         margin-left: 0;
         width: 200px;
         margin-top: 300px;
         height: 300px;
-
-
     }
-
-
+    
     .tituloNavegador__titulo {
-
         font-size: 50px;
         width: 200px;
-
     }
 
-
     .tituloNavegador__parrafo p{
-
         width: 200px;
         font-size: 15px;
-
-
     }
 
     .portada__imagen{
         width: 300px;
-    
     }
+    
     .portada__imagen img{
         height: 250px;
     }
    
-
-
 }
