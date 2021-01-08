@@ -304,6 +304,43 @@ body{
 }
 
 
+/* NOSOTROS */
+
+.contenedorNavegador__Nosotros{
+    height: 700px;
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(313, 75%, 69%, 0.24), hsla(317, 45%, 52%, 0.274)), url(Imagenes/nosotros-min.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(313, 75%, 69%, 0.24), hsla(317, 45%, 52%, 0.274)), url(Imagenes/nosotros-min.jpg) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    /* POSITION */
+    position: relative;
+}
+
+.tituloNavegador__Nosotros{
+    /* POSITION */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.tituloNavegador__titulo--Nosotros {
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color:  #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+
+
 /* FOOTER */
 
 
@@ -501,9 +538,20 @@ body{
     margin: 15px;
 }
 
-/* SECCION SERVICIOS SERVICIOS */
+/* SECCION SERVICIOS SERVICIOS INDEX*/
 .contenedorServicios__contenido{
     margin: 15px;
+}
+
+/* NOSOTROS */
+
+.tituloNavegador__Nosotros{
+    height: 400px;
+    margin-top: 250px;
+}
+
+.tituloNavegador__titulo--Nosotros{
+    font-size: 75px;
 }
 
 }
@@ -544,6 +592,10 @@ body{
         width: 48%;
     }
 
+    /* NOSOTROS */
+    .tituloNavegador__titulo--Nosotros{
+        font-size: 50px;
+    }
     
 }
 
