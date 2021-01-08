@@ -17,8 +17,8 @@ body{
 .contenedorNavegador{
     height: 700px;
     background: #FF0099;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(313, 75%, 69%, 0.24), hsla(317, 45%, 52%, 0.274)), url(Imagenes/inicio.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, hsla(313, 75%, 69%, 0.24), hsla(317, 45%, 52%, 0.274)), url(Imagenes/inicio.jpeg) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background: -webkit-linear-gradient(to right, hsla(313, 75%, 69%, 0.24), hsla(317, 45%, 52%, 0.274)), url(Imagenes/inicio-min.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(313, 75%, 69%, 0.24), hsla(317, 45%, 52%, 0.274)), url(Imagenes/inicio-min.jpeg) /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
@@ -127,7 +127,7 @@ body{
 }
 
 .portada__imagen{
-    width: 400px;
+    width: 450px;
 }
 
 .portada__imagen img{
@@ -545,4 +545,15 @@ body{
     }
 
     
+}
+
+@media (max-width: 320px){
+    .contenedorNavegador__titulo {
+        font-size: 25px;
+        margin-top: 10px;
+        
+    }
+    .navbar-toggler{
+        margin-bottom: 13px;
+    }
 }
