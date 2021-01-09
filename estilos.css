@@ -27,7 +27,7 @@ body{
 }
 
 .navbar-light{
-    background-color: rgba(0, 0, 0, 0.22); 
+    background-color: rgba(0, 0, 0, 0.22);
     position: fixed;
     width: 100%;
     margin-top: 0;
@@ -110,7 +110,7 @@ body{
 .titulo__index{
     margin-top: 100px;
     text-align: center;
-    color: #642a73;
+    color: #120116;
     font-size: 50px;
     text-transform: capitalize;
     font-family: 'Montserrat', sans-serif;
@@ -153,7 +153,7 @@ body{
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-size: 40px;
-    color: #642a73;
+    color: #120116;
     text-transform: capitalize;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -175,7 +175,7 @@ body{
     overflow: hidden;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
     height: 200px;
-    
+
 }
 
 .imagen-port img {
@@ -196,7 +196,7 @@ body{
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-size: 35px;
-    color: #642a73;
+    color: #120116;
 }
 
 .contenedorOpiniones{
@@ -207,7 +207,7 @@ body{
 
 .contenedorOpionesTodo{
    display: flex;
-   background: linear-gradient(100.37deg, #610098 38.77%, #440098 82.37%);
+   background-color: #34073f;
    align-items: center;
    flex-wrap: wrap;
    width: 400px;
@@ -246,7 +246,7 @@ body{
     text-align: center;
     color: #ffffff;
     font-weight: lighter;
-    
+
 }
 
 /* SERVICIOS INDEX */
@@ -260,7 +260,7 @@ body{
     text-align: center;
     font-family:'Montserrat', sans-serif;
     font-size: 35px;
-    color: #642a73;
+    color: #120116;
     text-transform: capitalize;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -271,7 +271,7 @@ body{
     justify-content: space-evenly;
     flex-wrap: wrap;
     padding-bottom: 30px;
-    
+
 }
 
 .contenedorServicios__contenido{
@@ -339,47 +339,62 @@ body{
     justify-content: center;
 }
 
-.seccionNosotros{
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 50%);
-    margin-top: 50px;
+.seccionTodoNosotros{
+    margin-top: 100px;
+    margin-bottom: 150px;
     background-color: #f2f2f2;
-    padding: 10px;
-   
 }
 
-.seccionNosotrosImg img{
+.seccionTodoNosotros h1{
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #120116;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.seccionNosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color: #120116;
+    min-height: 100vh;
+}
+
+.seccionNosotrosImg1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.seccionNosotrosImg2 img{
+    width: 100%;
     height: 100%;
 }
 
 .seccionNosotrosTituloParrafo{
+    margin: 70px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    
+    justify-content: center
 }
 
-.seccionNosotrosTituloParrafo h1{
+.seccionNosotrosTituloParrafo h2{
     margin: 0px;
-    font-family: "Bebas Neue";
+    font-family: 'Bebas Neue', cursive;
     font-weight: normal;
-    font-size: 130px;
+    font-size: 100px;
     line-height: 1;
-    text-align: center;
     color: #f2f2f2;
 }
 
 .seccionNosotrosTituloParrafo p{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    font-size: 15px;
-    color: #ffffff;
+    font-family:'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #f2f2f2;
 }
 
 /* FOOTER */
-
 
 .ContenedorFooter{
     background-color: rgba(0, 0, 0, 0.9);
@@ -402,11 +417,11 @@ body{
     width: 100%;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    background: linear-gradient(100.37deg, #610098 38.77%, #440098 82.37%);
+    background: #f2f2f2
 }
 
 .titulofooter a{
-    color: #ffffff;
+    color:#120116;
     font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     padding-top: 10px;
@@ -457,6 +472,20 @@ body{
 
 /* MEDIA QUERY */
 
+
+@media (max-height: 1250px) and (max-width: 1024px){
+.seccionNosotros {
+    min-height: none;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+}
+
+.seccionNosotrosImg2{
+    order: 2;
+}
+
+}
+
 @media (max-width: 991px){
    /* BARRA DE NAVEGACION */
 .contenedorNavegador__titulo{
@@ -469,7 +498,7 @@ body{
 .navbar-nav{
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.22); 
+    background-color: rgba(0, 0, 0, 0.22);
 }
 
 .nav-item{
@@ -591,46 +620,17 @@ body{
     font-size: 75px;
 }
 
-/* hasta aca */
-.seccionNosotros{
-    display: grid;
-    grid-template-columns: repeat(1, 100%);
-    margin-top: 50px;
-    background-color: #f2f2f2;
-    padding: 10px;
-   
+.seccionTodoNosotros h1{
+    font-size: 25px;
 }
 
-.seccionNosotrosImg img{
-    height: 100%;
-}
-
-.seccionNosotrosTituloParrafo{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    
-}
-
-.seccionNosotrosTituloParrafo h1{
-    margin: 0px;
-    font-family: "Bebas Neue";
-    font-weight: normal;
-    font-size: 130px;
-    line-height: 1;
-    text-align: center;
-    color: #f2f2f2;
+.seccionNosotrosTituloParrafo h2{
+    font-size: 70px;
 }
 
 .seccionNosotrosTituloParrafo p{
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
     font-size: 15px;
-    color: #ffffff;
 }
-
-/* hasta aca */
 
 }
 
@@ -646,7 +646,7 @@ body{
         margin-top: 300px;
         height: 300px;
     }
-    
+
     .tituloNavegador__titulo {
         font-size: 50px;
         width: 200px;
@@ -660,7 +660,7 @@ body{
     .portada__imagen{
         width: 300px;
     }
-    
+
     .portada__imagen img{
         height: 250px;
     }
@@ -674,13 +674,17 @@ body{
     .tituloNavegador__titulo--Nosotros{
         font-size: 50px;
     }
-    
+
+    .seccionNosotrosTituloParrafo h2{
+        font-size: 50px;
+    }
+
 }
 
 @media (max-width: 320px){
     .contenedorNavegador__titulo {
         font-size: 25px;
-        
+
     }
     .navbar-toggler{
         margin-bottom: 13px;
