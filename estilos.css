@@ -535,7 +535,7 @@ body{
 
 .tituloNavegador{
     height: 400px;
-    margin-top: 250px;
+    margin-top: 150px;
     width: 600px;
 }
 
@@ -613,7 +613,7 @@ body{
 
 .tituloNavegador__Nosotros{
     height: 400px;
-    margin-top: 250px;
+    margin-top: 150px;
 }
 
 .tituloNavegador__titulo--Nosotros{
@@ -643,7 +643,7 @@ body{
     .tituloNavegador{
         margin-left: 10px;
         width: 200px;
-        margin-top: 300px;
+        margin-top: 250px;
         height: 300px;
     }
 
