@@ -615,12 +615,53 @@ body{
 .contenedorBlog__texto h2{
     width: 250px;
     text-align: center;
+    color: #120116;
 }
 
 .contenedorBlog__texto p{
     width: 250px;
     text-align: justify;
 }
+
+
+/* CONTACTOS */
+
+.contenedorNavegador__Contactos{
+    height: 700px;
+    background: #41295a; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(268, 37%, 26%, 0.363), hsla(269, 37%, 26%, 0.302)), url(Imagenes/contactosprincipal.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/contactosprincipal.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    width: 100%;
+    /* POSITION */
+    position: relative;
+}
+
+.tituloNavegador__Contactos{
+    /* POSITION */
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.tituloNavegador__titulo--Contactos {
+    width: 100%;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    color:  #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+
 
 /* FOOTER */
 
@@ -926,6 +967,19 @@ body{
     font-size: 15px;
 }
 
+/* CONTACTOS */
+
+.tituloNavegador__Contactos{
+    height: 400px;
+    margin-top: 150px;
+}    
+
+
+.tituloNavegador__titulo--Contactos {
+    font-size: 75px;
+}
+
+
 }
 
 @media (max-width: 740px){
@@ -989,7 +1043,12 @@ body{
         font-size: 50px;
     }
 
-   
+    /* CONTACTOS */
+
+    .tituloNavegador__titulo--Contactos {
+    font-size: 50px;
+    }
+
 }
 
 @media (max-width: 320px){
