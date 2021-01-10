@@ -157,8 +157,8 @@ body{
     font-size: 40px;
     color: #120116;
     text-transform: capitalize;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 15px;
 }
 
 .portafolio{
@@ -264,8 +264,8 @@ body{
     font-size: 35px;
     color: #120116;
     text-transform: capitalize;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .contenedorServicios{
@@ -353,9 +353,8 @@ body{
     font-family:'Montserrat', sans-serif;
     font-size: 40px;
     color: #120116;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 5px;
 }
 
 .seccionNosotros{
@@ -641,6 +640,16 @@ body{
     font-size: 10px;
 }
 
+/* SECCION PORTFOLIO INDEX */
+
+.titulo{
+    font-size: 30px;
+}
+
+.contenedorOpiniones__titulo h3{
+    font-size: 30px;
+}
+
 /* SECCION OPINIONES INDEX */
 .contenedorOpionesTodo{
     margin: 15px;
@@ -649,6 +658,10 @@ body{
 /* SECCION SERVICIOS SERVICIOS INDEX*/
 .contenedorServicios__contenido{
     margin: 15px;
+}
+
+.seccionServicios h4{
+    font-size: 30px;
 }
 
 /* NOSOTROS */
@@ -663,7 +676,7 @@ body{
 }
 
 .seccionTodoNosotros h1{
-    font-size: 25px;
+    font-size: 30px;
 }
 
 .seccionNosotrosTituloParrafo h2{
