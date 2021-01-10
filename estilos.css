@@ -159,6 +159,7 @@ body{
     text-transform: capitalize;
     padding-top: 20px;
     padding-bottom: 15px;
+    letter-spacing: 10px;
 }
 
 .portafolio{
@@ -302,6 +303,7 @@ body{
     color: rgb(0, 0, 0);
     margin-top: 5px;
     font-weight: bold;
+    text-align: center;
 }
 
 
@@ -354,6 +356,7 @@ body{
     color: #120116;
     padding-top: 20px;
     padding-bottom: 5px;
+    letter-spacing: 10px;
 }
 
 .seccionNosotros{
@@ -431,6 +434,12 @@ body{
     justify-content: center;
 }
 
+.todoServicios{
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    
+}
+
 .tituloSeccionServicios{
     margin-top: 100px
 }
@@ -440,11 +449,16 @@ body{
         font-family:'Montserrat', sans-serif;
         font-size: 40px;
         color: #120116;
+        letter-spacing: 10px;
+        padding-top: 20px;
 }
 
-/* PRUEBASSSSSSSSS */
+.tituloSeccionServicios p{
+    text-align: center;
+    font-size: 15px;
+}
 
-.prueba{
+.conteinerSeccionServicios{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -455,7 +469,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 400px;
 }
 
 .contenedorSeccionServicios__Img{
@@ -786,6 +800,11 @@ body{
     font-size: 30px;
 }
 
+.tituloSeccionServicios p{
+    text-align: center;
+    font-size: 15px;
+}
+
 }
 
 @media (max-width: 740px){
@@ -848,5 +867,23 @@ body{
     }
     .navbar-toggler{
         margin-bottom: 13px;
+    }
+
+    /* SERVICIOS */
+    .tituloSeccionServicios h1{
+        font-size: 25px;
+    }
+
+    .contenedorSeccionServicios{
+        width: 220px;
+    }
+    .capa h2{
+        font-size: 25px;
+    }
+
+    /* NOSOTROS */
+    .seccionNosotrosTituloParrafo {
+        margin: 0px;
+        text-align: center;
     }
 }
