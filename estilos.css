@@ -21,6 +21,8 @@ body{
     background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/inicio-min.jpeg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
     width: 100%;
     /* POSITION */
     position: relative;
@@ -316,6 +318,8 @@ body{
     background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/nosotros-min.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     width: 100%;
     /* POSITION */
     position: relative;
@@ -408,6 +412,8 @@ body{
     background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/servicios.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     width: 100%;
     /* POSITION */
     position: relative;
@@ -540,6 +546,8 @@ body{
     background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/blogprincipal.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
     width: 100%;
     /* POSITION */
     position: relative;
@@ -949,6 +957,10 @@ body{
 
     .portada__imagen img{
         height: 250px;
+    }
+
+    .portada__texto p{
+        text-align: center;
     }
 
     /* PORTOFOLIO INDEX */
