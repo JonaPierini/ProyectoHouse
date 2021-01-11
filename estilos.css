@@ -662,6 +662,153 @@ body{
 }
 
 
+/* prueba */
+
+.TodoFormulario{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #f2f2f2;
+}
+
+.TituloFormulario{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #120116;
+    letter-spacing: 10px;
+    padding-top: 20px;
+    
+}
+
+.ConteinerFormulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    /* max-width: 100%; */
+    padding-bottom: 20px;
+    padding-top: 40px;
+
+}
+
+.FormularioImagen img{
+    width: 250px;
+    height: 250px;
+}
+
+.ConteinerContactos{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.FormularioNombre{
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.FormularioNombre label{
+    color: #120116;
+}
+
+.FormularioNombre input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #120116;
+    width: 100%;
+    padding-top: 10px;
+    color: #120116;
+}
+
+.FormularioApellido{
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.FormularioApellido input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid #120116;
+    width: 100%;
+    padding-top: 10px;
+    color: #120116;
+}
+
+.FormularioApellido label{
+    margin-right: 10px;
+    color: #120116;
+}
+.FormularioEmail{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.FormularioEmail label{
+    margin-right: 10px;
+    color: #120116;
+}
+
+.FormularioEmail input{
+    width: 100%;
+    padding-top: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid  #120116;
+    color:#120116;
+}
+
+.FormularioComentarios{
+    padding-bottom: 20px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+}
+
+.FormularioComentarios label{
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #120116;
+}
+
+.FormularioComentarios textarea{
+    width: 100%;
+    padding-top: 5px;
+    background: none;
+    border: none;
+    border: 2px solid #120116;
+    color: #120116;
+    /* PARA QUE NO SE EXTIRE EL TEXTAREA */
+    resize: none;
+}
+
+.BotonEnviar{
+    padding-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.BotonEnviar input{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background: none;
+    border: none;
+    border: 2px solid #120116; 
+    color: rgb(0, 0, 0) ;
+    font-size: 1.3rem;
+    font-weight: bold;
+    width: 100%;
+    transition: color 0.9s;
+}
+
+.BotonEnviar input:hover{
+    background-color: #ffffff;
+}
+
 
 /* FOOTER */
 
@@ -752,6 +899,7 @@ body{
 .seccionNosotrosImg2{
     order: 2;
 }
+
 
 }
 
@@ -979,6 +1127,10 @@ body{
     font-size: 75px;
 }
 
+.ConteinerContactos{
+    margin-top: 50px;
+    margin-left: 10px;
+}
 
 }
 
@@ -1049,6 +1201,10 @@ body{
     font-size: 50px;
     }
 
+    .TituloFormulario{
+        font-size: 30px;
+    }
+
 }
 
 @media (max-width: 320px){
@@ -1096,4 +1252,15 @@ body{
     .contenedorBlog__texto p{
         width: 200px
     }
+
+    /* CONTACTOS */
+    .TituloFormulario{
+        font-size: 20px;
+    }
+
+    .FormularioImagen img{
+        width: 200px;
+        height: 200px;
+    }
+   
 }
