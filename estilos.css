@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 
 
 
@@ -21,7 +22,6 @@ body{
     background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/inicio-min.jpeg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: right;
     width: 100%;
     /* POSITION */
@@ -318,7 +318,6 @@ body{
     background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/nosotros-min.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     width: 100%;
     /* POSITION */
@@ -412,7 +411,6 @@ body{
     background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/servicios.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;
     width: 100%;
     /* POSITION */
@@ -546,7 +544,6 @@ body{
     background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/blogprincipal.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: right;
     width: 100%;
     /* POSITION */
@@ -613,14 +610,19 @@ body{
 }
 
 .contenedorBlog__texto h2{
-    width: 250px;
+    width: 300px;
     text-align: center;
     color: #120116;
+    letter-spacing: 10px;
+    font-family: 'Yesteryear', cursive;
+    font-size: 30px
 }
 
 .contenedorBlog__texto p{
-    width: 250px;
+    width: 300px;
     text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
 }
 
 
@@ -633,7 +635,6 @@ body{
     background: linear-gradient(to right, hsla(268, 37%, 26%, 0.356), hsla(268, 37%, 26%, 0.342)), url(Imagenes/contactosprincipal.jpg);; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: right;
     width: 100%;
     /* POSITION */
@@ -662,7 +663,7 @@ body{
 }
 
 
-/* prueba */
+/* FORMULARIO */
 
 .TodoFormulario{
     margin-top: 100px;
@@ -833,11 +834,11 @@ body{
     width: 100%;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    background: #f2f2f2
+    background: linear-gradient(to right, hsla(267, 22%, 92%, 0.322), hsla(268, 56%, 82%, 0.342));
 }
 
 .titulofooter a{
-    color:#120116;
+    color:#fffb16;
     font-size: 20px;
     font-family: 'Bebas Neue', cursive;
     padding-top: 10px;
@@ -1216,6 +1217,13 @@ body{
         margin-bottom: 13px;
     }
 
+    /* INDEX */
+
+    .titulo__index{
+        font-size: 35px;
+    }
+
+    
     /* SERVICIOS */
     .tituloSeccionServicios h1{
         font-size: 25px;
@@ -1234,6 +1242,10 @@ body{
         text-align: center;
     }
 
+    .seccionTodoNosotros h1{
+        font-size: 25px;
+    }
+
     /* BLOG */
 
     .contenedorBlog img{
@@ -1245,8 +1257,13 @@ body{
         align-items: center;
     }
 
+    .tituloBlog h1{
+        font-size: 25px;
+    }
+
     .contenedorBlog__texto h2{
         width: 200px;
+        font-size: 25px;
     }
 
     .contenedorBlog__texto p{
@@ -1255,12 +1272,12 @@ body{
 
     /* CONTACTOS */
     .TituloFormulario{
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .FormularioImagen img{
         width: 200px;
-        height: 200px;
+        height: 150px;
     }
    
 }
