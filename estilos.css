@@ -47,7 +47,7 @@ body{
 }
 
 .contenedorNavegador__titulo:hover{
-    color:  #ca94d8;
+    color:  #fffb16;
 }
 
 .navbar-nav{
@@ -834,7 +834,7 @@ body{
     width: 100%;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    background: linear-gradient(to right, hsla(267, 22%, 92%, 0.322), hsla(268, 56%, 82%, 0.342));
+    background: #120116;
 }
 
 .titulofooter a{
